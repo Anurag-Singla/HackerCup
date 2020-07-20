@@ -1,25 +1,19 @@
-package round.qualifying;
+package com.a11logic;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.io.Reader;
-import java.lang.reflect.Array;
 import java.util.Arrays;
-
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
 
 /**
  * @author Anurag Singla
  * compiled using JDK 1.7.0_02
  *
  */
-public class Problem1 {
+public class BillBoards {
 	
 	
 	private Input[] readInputs() {
@@ -131,9 +125,9 @@ public class Problem1 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Problem1 problem1 = new Problem1();
-		Input[] inputs = problem1.readInputs();
-		problem1.processInputs(inputs);
+		BillBoards billBoards = new BillBoards();
+		Input[] inputs = billBoards.readInputs();
+		billBoards.processInputs(inputs);
 
 	}
 	
